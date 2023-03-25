@@ -1,0 +1,392 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+.conect{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(12, 19, 35);
+    background-size: cover;
+}
+.conect .Contect{
+    max-width: 800px;
+    text-align: center;
+}
+.conect .Contect h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.conect .Contect p{
+    
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+}
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #a5a6c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 15px;
+}
+.container .contactInfo .box .icon .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .icon .text h3{
+    font-weight: 300;
+    color: #00bcd4;
+    
+}
+.conectform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.conectform h2{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+}
+.conectform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.conectform .inputbox input{
+    width: 100%;
+    padding: 5px  0;
+    font-size: 16px;
+    margin: 10px  0;
+    border: none;
+    border-bottom: 2px solid #c70000;
+    outline: none;
+    resize: none;
+}
+.conectform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ff0000;
+    outline: none;
+    resize: none;
+}
+.conectform .inputbox span{
+ position: absolute;
+ left: 0;
+ padding: 5px 0;
+ font-size: 16px;
+ margin: 10px 0;
+ pointer-events: none;
+ transition: 0.5s;
+ color: #666;
+
+}
+.conectform .inputbox input:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.conectform .inputbox input:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.conectform .inputbox textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.conectform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.conectform .inputbox input[type="submit"]{
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.logo{
+    color: rgba(10,115,137,255);
+    }
+    p{
+        color: white
+    }
+    .h{
+        color: white;
+    }
+    nav{
+        border: 1px solid white;
+    }
+    .footer {
+        width: 100%;
+        height: 100px;
+        background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+        
+    }
+    
+    .footT{
+       padding-top: 15px;
+       margin-right: 100px;
+    }
+    .bottom {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    
+    .donate {
+        background-color: goldenrod;
+        width: 100px;
+        height: 40px;
+    }
+    svg{
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+    #mm{
+        color: white;
+        
+    }
+    @media screen and (max-width: 826px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+            }
+            .conect{
+                position: relative;
+                min-height: 100vh;
+                padding: 50px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: rgb(12, 19, 35);
+                background-size: cover;
+            }
+            .conect .Contect{
+                max-width: 800px;
+                text-align: center;
+            }
+            .conect .Contect h2{
+                font-size: 36px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .conect .Contect p{
+                
+                font-weight: 300;
+                color: #fff;
+            }
+            .container{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-top:30px ;
+            }
+            .container .contactInfo {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            .container .contactInfo .box{
+                text-align: center;
+                margin-right: 20px;
+                flex-wrap: wrap;
+            }
+            .container .contactInfo .box .icon{
+                min-width: 60px;
+                height: 60px;
+                background: #a5a6c5;
+                text-align: center;
+                margin-right: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 22px;
+            
+            }
+            .container .contactInfo .box .icon .text{
+                display: flex;
+                text-align: center;
+                font-size: 16px;
+                color: #fff;
+                flex-direction: column;
+                font-weight: 300;
+            }
+            .container .contactInfo .box .icon .text h3{
+                font-weight: 300;
+                color: #00bcd4;
+                text-align: center;
+                
+            }
+            .conectform{
+                display: flex;
+                flex-wrap: wrap;
+                width: 400px;
+                
+                background: #fff;
+            }
+            .conectform h2{
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+            }
+            .conectform .inputbox{
+                position: relative;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .conectform .inputbox input{
+                width: 100%;
+                
+                font-size: 16px;
+             
+                border: none;
+                border-bottom: 2px solid #c70000;
+                outline: none;
+                resize: none;
+            }
+            .conectform .inputbox textarea{
+                width: 100%;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                border: none;
+                border-bottom: 2px solid #ff0000;
+                outline: none;
+                resize: none;
+            }
+            .conectform .inputbox span{
+             position: absolute;
+             left: 0;
+             padding: 5px 0;
+             font-size: 16px;
+             margin: 10px 0;
+             pointer-events: none;
+             transition: 0.5s;
+             color: #666;
+            
+            }
+            .conectform .inputbox input:focus ~ span{
+                color: #e91e63;
+                font-size: 12px;
+                transform: translateY(-20px);
+            
+            }
+            .conectform .inputbox input:valid ~ span{
+                color: #e91e63;
+                font-size: 12px;
+                transform: translateY(-20px);
+            }
+            .conectform .inputbox textarea:focus ~ span{
+                color: #e91e63;
+                font-size: 12px;
+                transform: translateY(-20px);
+            }
+            .conectform .inputbox textarea:valid ~ span{
+                color: #e91e63;
+                font-size: 12px;
+                transform: translateY(-20px);
+            }
+            .conectform .inputbox input[type="submit"]{
+                width: 100%;
+                background: #00bcd4;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 18px;
+            }
+            .logo{
+                color: rgba(10,115,137,255);
+                }
+                p{
+                    color: white
+                }
+                .h{
+                    color: white;
+                    text-align: center;
+                    
+                }
+                nav{
+                    border: 1px solid white;
+                }
+                .footer {
+                    width: 100%;
+                    height: 100px;
+                    background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+                    
+                }
+                
+                .footT{
+                   padding-top: 15px;
+                   margin-right: 100px;
+                }
+                .bottom {
+                    width: 100%;
+                    height: 400px;
+                    text-align: center;
+                }
+                
+                .donate {
+                    background-color: goldenrod;
+                    width: 100px;
+                    height: 40px;
+                }
+                svg{
+                    color: white;
+                    margin: 10px;
+                    font-size: 20px;
+                }
+                #mm{
+                    color: white;
+                    
+                }
+    }

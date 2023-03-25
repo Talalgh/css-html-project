@@ -1,0 +1,202 @@
+.logo{
+color: rgba(10,115,137,255);
+}
+.container-image-text{
+    display: flex;
+}
+.container-image-text{
+    display: flex;
+}
+.bg-wight{
+background-color: white;
+}
+.left-text{
+    width: 65%;
+    height: 650px;
+    background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+}
+.margin-left-text{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.right-img{
+    width: 35%;
+    height: 650px;
+    background-color: rgb(120, 19, 44);
+}
+.flex-hellow{
+    display: flex;
+    word-spacing: 30px;
+
+}
+.text-hellow1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 6px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color:rgb(180, 180, 180) ;
+    
+}
+.p1{
+    margin-left: 10px;
+    
+}
+.p2{
+    
+    color: rgba(10,115,137,255);
+    font-family: serif;
+    font-size: 25px;
+}
+.button-about-me-home-page{
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(180, 180, 180) ;
+}
+.image-welcome-page{
+    width: 100%;
+    height: 650px;
+}
+#link{
+    text-decoration: none;
+    color:rgb(0, 0, 0)  ;
+}
+nav{
+    border: 1px solid white;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(12, 19, 35);
+    
+}
+
+.footT{
+   padding-top: 15px;
+   margin-right: 100px;
+}
+.bottom {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.donate {
+    background-color: goldenrod;
+    width: 100px;
+    height: 40px;
+}
+svg{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+#mm{
+    color: white;
+    
+}
+@media screen and (max-width: 1000px){
+    .logo{
+        color: rgba(10,115,137,255);
+        }
+        .container-image-text{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container-image-text{
+            display: flex;
+        }
+        .bg-wight{
+        background-color: white;
+        }
+        .left-text{
+            width: 100%;
+            height: 650px;
+            background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+        }
+        .margin-left-text{
+            text-align: center;
+            margin-left: 10px;
+            margin-top: 150px;
+        }
+        .right-img{
+            width: 100%;
+            height: 650px;
+            background-color: rgb(120, 19, 44);
+        }
+        .flex-hellow{
+            display: flex;
+            word-spacing: 30px;
+        
+        }
+        .text-hellow1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 6px;
+            width: 70px;
+            height: 25px;
+            border-radius: 10px;
+            background-color:rgb(180, 180, 180) ;
+            
+        }
+        .p1{
+            margin-left: 10px;
+            
+        }
+        .p2{
+         
+            color: rgba(10,115,137,255);
+            font-family: serif;
+            font-size: 25px;
+        }
+        .button-about-me-home-page{
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            background-color:rgb(180, 180, 180) ;
+        }
+        .image-welcome-page{
+            width: 100%;
+            height: 650px;
+        }
+        #link{
+            text-decoration: none;
+            color:rgb(0, 0, 0)  ;
+        }
+        nav{
+            border: 1px solid white;
+        }
+        .footer {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(12, 19, 35);
+            
+        }
+        
+        .footT{
+           padding-top: 15px;
+           margin-right: 100px;
+        }
+        .bottom {
+            width: 100%;
+            height: 400px;
+            text-align: center;
+        }
+        
+        .donate {
+            background-color: goldenrod;
+            width: 100px;
+            height: 40px;
+        }
+        svg{
+            color: white;
+            margin: 10px;
+            font-size: 20px;
+        }
+        #mm{
+            color: white;
+            
+        }
+}

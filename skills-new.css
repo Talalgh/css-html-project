@@ -1,0 +1,233 @@
+.logo{
+    color: rgba(10,115,137,255);
+    }
+.p-card{
+    text-align: center;
+}
+
+.my-skills{
+    background-color: rgb(12, 19, 35);
+    width:100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+color: white;
+font-size: 60px;
+width: 1130px;
+margin: 30px auto;
+padding-bottom: 70px;
+text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card span {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:rgb(112, 191, 224) ;
+}
+
+h5{
+    color: rgb(112, 191, 224) ;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.paragraph p{
+color: white;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 25px;
+
+}
+
+.card .button{
+    background-color:rgb(18, 91, 123) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(18, 91, 123);
+    cursor: pointer;
+}
+nav{
+    border: 1px solid white;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+    
+}
+
+.footT{
+   padding-top: 15px;
+   margin-right: 100px;
+}
+.bottom {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.donate {
+    background-color: goldenrod;
+    width: 100px;
+    height: 40px;
+}
+svg{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+#mm{
+    color: white;
+    
+}
+@media screen and (max-width: 1000px){
+    .logo{
+        color: rgba(10,115,137,255);
+        }
+    .p-card{
+        text-align: center;
+    }
+    
+    .my-skills{
+        background-color: rgb(12, 19, 35);
+        width:100%;
+        padding: 100px 0px;
+    }
+    
+    .title h2{
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    margin: 30px auto;
+    padding-bottom: 70px;
+    text-align: center;
+    }
+    
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    
+    }
+    
+    .card{
+        height: 450px;
+        width: 335px;
+        padding: 20px 35px;
+        background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .card span {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color:rgb(112, 191, 224) ;
+    }
+    
+    h5{
+        color: rgb(112, 191, 224) ;
+        font-size: 23px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .paragraph p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    
+    }
+    
+    .card .button{
+        background-color:rgb(18, 91, 123) ;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    
+    .card .button:hover{
+        background-color: transparent;
+        border: 2px solid rgb(18, 91, 123);
+        cursor: pointer;
+    }
+    nav{
+        border: 1px solid white;
+    }
+    .footer {
+        width: 100%;
+        height: 100px;
+        background-image: url(WhatsApp\ Image\ 2023-03-22\ at\ 14.44.31.jpg);
+        
+    }
+    
+    .footT{
+       padding-top: 15px;
+       margin-right: 100px;
+    }
+    .bottom {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    
+    .donate {
+        background-color: goldenrod;
+        width: 100px;
+        height: 40px;
+    }
+    svg{
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+    #mm{
+        color: white;
+        
+    }
+}
